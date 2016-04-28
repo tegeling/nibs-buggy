@@ -9,7 +9,7 @@ var db = require('./pghelper'),
  */
 
 // ****************************************************************
-// A BUG HAS BEEN INTRODUCED on purpose to demonstrate Heroku flows
+// A BUG HAS BEEN INTRODUCED on purpose to demonstrate Heroku flow
 // Delete 'WHERE name='bug' in the SELECT to fix
 // ****************************************************************
 
