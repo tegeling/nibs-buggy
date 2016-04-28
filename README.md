@@ -7,8 +7,8 @@ Check out the [documentation](http://heroku.github.io/nibs) to learn more about 
 ## Changes
 Updated: 28/APR/2016
 
-    Added bug on purpose on the Store Locator page to demonstrate Heroku Flows.
-    WHERE name='bug' should be removed in the SELECT query on /server/stores.js file
+    Added bug on purpose on the Store Locator page to demonstrate Heroku Flow.
+    Remove "WHERE name='bug'" in the SELECT query on /server/stores.js file to fix.
 
 Updated: 7/22/2015
 
