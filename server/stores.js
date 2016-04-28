@@ -11,7 +11,7 @@ var db = require('./pghelper'),
 
 
 function findAll(req, res, next) {
-    db.query("SELECT id, name, location__latitude__s AS latitude, location__longitude__s AS longitude FROM salesforce.store__c ORDER BY lastmodifieddate DESC")
+    db.query("SELECT id, name, location__latitude__s AS latitude, location__longitude__s AS longitude FROM salesforce.store__c WHERE name='bug' ORDER BY lastmodifieddate DESC")
         .then(function (stores) {
             return res.send(JSON.stringify(stores));
         })
@@ -19,8 +19,8 @@ function findAll(req, res, next) {
 };
 
 
-// exports.findAll = findAll;
-exports.findAll = null;
+exports.findAll = findAll;
+
 
 
 
