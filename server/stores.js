@@ -11,6 +11,7 @@ var db = require('./pghelper'),
 // ****************************************************************
 // A BUG HAS BEEN INTRODUCED on purpose to demonstrate Heroku flow
 // Delete 'WHERE name='bug' in the SELECT to fix
+// Heroku Campfire
 // ****************************************************************
 
 function findAll(req, res, next) {
